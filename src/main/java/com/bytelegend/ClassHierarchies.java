@@ -13,26 +13,26 @@ public class ClassHierarchies {
     };
     // class hierarchy of java.util.ArrayList
     public static final String[] HIERARCHY_OF_ARRAYLIST = {
-            "java.util.AbstractList", "java.util.AbstractCollection", "java.lang.Object"
+            "java.util.ArrayList","java.util.AbstractList","java.util.AbstractCollection", "java.lang.Object"
     };
     // class hierarchy of java.util.LinkedList
     public static final String[] HIERARCHY_OF_LINKEDLIST = {
-            "java.util.AbstractSequentialList", "java.util.AbstractList", "java.util.AbstractCollection", "java.lang.Object"
+            "java.util.LinkedList","java.util.AbstractSequentialList", "java.util.AbstractList", "java.util.AbstractCollection", "java.lang.Object"
     };
     // class hierarchy of java.util.HashMap
     public static final String[] HIERARCHY_OF_HASHMAP = {
-            "java.util.AbstractMap", "java.lang.Object"
+            "java.util.HashMap","java.util.AbstractMap", "java.lang.Object"
     };
     // class hierarchy of java.util.concurrent.ConcurrentHashMap
     public static final String[] HIERARCHY_OF_CONCURRENT_HASHMAP = {
-            "java.util.AbstractMap", "java.lang.Object"
+            "java.util.concurrent.ConcurrentHashMap","java.util.AbstractMap", "java.lang.Object"
     };
     // class hierarchy of java.util.HashSet
     public static final String[] HIERARCHY_OF_HASHSET = {
-            "java.util.AbstractSet", "java.util.AbstractCollection", "java.lang.Object"
+            "java.util.HashSet","java.util.AbstractSet", "java.util.AbstractCollection", "java.lang.Object"
     };
     // class hierarchy of java.util.TreeSet
     public static final String[] HIERARCHY_OF_TREESET = {
-            "java.util.AbstractSet", "java.util.AbstractCollection", "java.lang.Object"
+            "java.util.TreeSet","java.util.AbstractSet", "java.util.AbstractCollection", "java.lang.Object"
     };
 }
