@@ -1,5 +1,8 @@
 package com.bytelegend;
 
+import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
+
 public class ClassHierarchies {
     /**
      * A class' class hierarchy is the list starting from the class itself, and searching the parent
@@ -9,18 +12,30 @@ public class ClassHierarchies {
      * `java.lang.AbstractStringBuilder` -> `java.lang.Object`.
      */
     public static final String[] HIERARCHY_OF_STRING_BUILDER = {
-        "java.lang.StringBuilder", "java.lang.AbstractStringBuilder", "java.lang.Object"
+            "java.lang.StringBuilder", "java.lang.AbstractStringBuilder", "java.lang.Object"
     };
     // class hierarchy of java.util.ArrayList
-    public static final String[] HIERARCHY_OF_ARRAYLIST = {};
+    public static final String[] HIERARCHY_OF_ARRAYLIST = {
+            "java.util.AbstractList", "java.util.AbstractCollection", "java.lang.Object"
+    };
     // class hierarchy of java.util.LinkedList
-    public static final String[] HIERARCHY_OF_LINKEDLIST = {};
+    public static final String[] HIERARCHY_OF_LINKEDLIST = {
+            "java.util.AbstractSequentialList", "java.util.AbstractList", "java.util.AbstractCollection", "java.lang.Object"
+    };
     // class hierarchy of java.util.HashMap
-    public static final String[] HIERARCHY_OF_HASHMAP = {};
+    public static final String[] HIERARCHY_OF_HASHMAP = {
+            "java.util.AbstractMap", "java.lang.Object"
+    };
     // class hierarchy of java.util.concurrent.ConcurrentHashMap
-    public static final String[] HIERARCHY_OF_CONCURRENT_HASHMAP = {};
+    public static final String[] HIERARCHY_OF_CONCURRENT_HASHMAP = {
+            "java.util.AbstractMap", "java.lang.Object"
+    };
     // class hierarchy of java.util.HashSet
-    public static final String[] HIERARCHY_OF_HASHSET = {};
+    public static final String[] HIERARCHY_OF_HASHSET = {
+            "java.util.AbstractSet", "java.util.AbstractCollection", "java.lang.Object"
+    };
     // class hierarchy of java.util.TreeSet
-    public static final String[] HIERARCHY_OF_TREESET = {};
+    public static final String[] HIERARCHY_OF_TREESET = {
+            "java.util.AbstractSet", "java.util.AbstractCollection", "java.lang.Object"
+    };
 }
