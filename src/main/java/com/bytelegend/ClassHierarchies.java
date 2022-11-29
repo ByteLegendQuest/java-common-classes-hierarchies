@@ -1,8 +1,5 @@
 package com.bytelegend;
 
-import java.util.*;
-import java.util.concurrent.ConcurrentHashMap;
-
 public class ClassHierarchies {
     /**
      * A class' class hierarchy is the list starting from the class itself, and searching the parent
