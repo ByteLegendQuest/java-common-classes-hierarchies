@@ -13,7 +13,7 @@ public class ClassHierarchies {
     };
     // class hierarchy of java.util.ArrayList
     public static final String[] HIERARCHY_OF_ARRAYLIST = {
-        x"java.util.ArrayList", "java.util.AbstractList", "java.util.AbstractCollection", "java.lang.Object"
+        "java.util.ArrayList", "java.util.AbstractList", "java.util.AbstractCollection", "java.lang.Object"
     };
     // class hierarchy of java.util.LinkedList
     public static final String[] HIERARCHY_OF_LINKEDLIST = {
